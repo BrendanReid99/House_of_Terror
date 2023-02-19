@@ -19,7 +19,7 @@ public class LightController : MonoBehaviour
     {
         if (!lightOn)
         {
-            light.intensity = 1.05f;
+            light.intensity = 5.0f;
             lightOn = true;
         }
         

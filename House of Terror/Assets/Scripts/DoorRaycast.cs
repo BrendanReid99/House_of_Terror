@@ -9,6 +9,7 @@ public class DoorRaycast : MonoBehaviour
     [SerializeField] private string excludeLayerName = null;
 
     private RaycastController raycastedObj;
+    private LightController lightObj;
 
    // [SerializeField] private GameObject player;
     [SerializeField] private KeyCode interactKey = KeyCode.Mouse0;
@@ -16,6 +17,7 @@ public class DoorRaycast : MonoBehaviour
     private bool doOnce;
 
     private const string interactableTag = "Door";
+    private const string lightTag = "Lightswitch";
 
     private void Update()
     {
@@ -36,6 +38,19 @@ public class DoorRaycast : MonoBehaviour
                     raycastedObj.PlayDoorAnimation();
                 }
             }
+
+            if (hit.collider.CompareTag(lightTag))
+
+            {
+                lightObj = hit.collider.gameObject.GetComponent<LightController>();
+
+                if (Input.GetKeyDown(interactKey))
+                {
+                    lightObj.LightSwitch();
+                }
+            }
+
+
         }
     }
 

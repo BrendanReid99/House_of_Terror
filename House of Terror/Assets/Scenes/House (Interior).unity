@@ -500,41 +500,33 @@ PrefabInstance:
       propertyPath: m_Range
       value: 5.46
       objectReference: {fileID: 0}
-    - target: {fileID: 346094626, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
-      propertyPath: m_Intensity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 693293570, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_Range
       value: 5.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 693293570, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
-      propertyPath: m_Intensity
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1710461769, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_Range
       value: 4.54
       objectReference: {fileID: 0}
-    - target: {fileID: 1710461769, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
-      propertyPath: m_Intensity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1943946821, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_Range
       value: 4.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 1943946821, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
-      propertyPath: m_Intensity
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2032041149, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_Range
       value: 4.71
       objectReference: {fileID: 0}
-    - target: {fileID: 2032041149, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
-      propertyPath: m_Intensity
+    - target: {fileID: 1843617929068348182, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843617929068348182, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843617929068348182, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_TagString
+      value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 1853290898103200487, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_Name

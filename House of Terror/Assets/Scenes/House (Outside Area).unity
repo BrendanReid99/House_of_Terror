@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.22936943, g: 0.2551916, b: 0.32509872, a: 1}
+  m_IndirectSpecularColor: {r: 0.2294054, g: 0.25521177, b: 0.32522693, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -21687,12 +21687,24 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.552042
       objectReference: {fileID: 0}
     - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.11
+      value: 5.69
       objectReference: {fileID: 0}
     - target: {fileID: 3918355376251139793, guid: 24fe924916c1a184987dd1ed430a8afa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -60317,6 +60329,7 @@ GameObject:
   - component: {fileID: 81448068137166354}
   - component: {fileID: 114657890545225854}
   - component: {fileID: 114103969092475770}
+  - component: {fileID: 124991110532252949}
   m_Layer: 0
   m_Name: First Person Camera
   m_TagString: MainCamera
@@ -60648,6 +60661,24 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593727842459548}
   m_Enabled: 1
+--- !u!114 &124991110532252949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593727842459548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d288861754195f4fbc50f9143ed6343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rayLength: 5
+  layerMaskInteract:
+    serializedVersion: 2
+    m_Bits: 64
+  excludeLayerName: 
+  interactKey: 323
 --- !u!136 &136877096974525626
 CapsuleCollider:
   m_ObjectHideFlags: 0

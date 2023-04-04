@@ -18,6 +18,7 @@ public class DoorRaycast : MonoBehaviour
 
     private const string interactableTag = "Door";
     private const string lightTag = "Lightswitch";
+    private const string frontdoorTag = "FrontDoor";
 
     private void Update()
     {
